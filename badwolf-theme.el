@@ -90,7 +90,7 @@
    `(region ((t (:foreground nil :background ,mediumgravel ))))
    `(secondary-selection ((t (:foreground ,darkgravel :background ,tardis))))
    `(fringe ((t (:background ,bg))))
-   `(linum ((t (:foreground ,mediumgravel))))
+   `(linum ((t (:foreground ,mediumgravel :background ,bg))))
    `(vertical-border ((t (:foreground ,gravel))))
    `(highlight ((t (:foreground ,coal :background ,dalespale))))
    `(escape-glyph ((t (:foreground ,tardis))))
