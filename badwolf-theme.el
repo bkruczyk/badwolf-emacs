@@ -39,7 +39,8 @@
 
 (deftheme badwolf "Bad Wolf color theme")
 
-(let ((plain "#f8f6f2")
+(let ((bg "#222120")
+      (plain "#f8f6f2")
       (snow "#ffffff")
       (coal "#000000")
       (brightgravel "#d9cec3")
@@ -67,7 +68,7 @@
    'badwolf
 
    ;; font lock
-   `(default ((t (:inherit nil :foreground ,plain :background ,blackgravel))))
+   `(default ((t (:inherit nil :foreground ,plain :background ,bg))))
    `(font-lock-builtin-face ((t (:foreground ,brightgravel))))
    `(font-lock-comment-face ((t (:foreground ,lightgravel))))
    `(font-lock-comment-delimiter-face ((t (:foreground ,lightgravel))))
@@ -88,15 +89,15 @@
    `(cursor ((t (:background ,tardis))))
    `(region ((t (:foreground nil :background ,mediumgravel ))))
    `(secondary-selection ((t (:foreground ,darkgravel :background ,tardis))))
-   `(fringe ((t (:background ,blackgravel))))
+   `(fringe ((t (:background ,bg))))
    `(linum ((t (:foreground ,mediumgravel))))
    `(vertical-border ((t (:foreground ,gravel))))
    `(highlight ((t (:foreground ,coal :background ,dalespale))))
    `(escape-glyph ((t (:foreground ,tardis))))
    `(hl-line ((t (:inherit nil :background ,darkgravel))))
    `(minibuffer-prompt ((t (:foreground ,lime))))
-   `(mode-line ((t (:box nil :foreground ,snow :background ,deepgravel))))
-   `(mode-line-inactive ((t (:box nil :foreground ,brightgravel :background ,darkgravel))))
+   `(mode-line ((t (:box nil :foreground ,snow :background "#595959"))))
+   `(mode-line-inactive ((t (:box nil :foreground "#848484" :background "#333333"))))
    `(header-line ((t (:inherit mode-line))))
    `(link ((t (:foreground ,lightgravel :underline t))))
    `(link-visited ((t (:inherit link :foreground ,orange))))
@@ -131,15 +132,15 @@
    `(anzu-replace-to ((t (:background ,dalespale :foreground ,coal))))
 
    ;; rainbow-delimiters
-   `(rainbow-delimiters-depth-1-face ((t (:foreground ,lightgravel))))
-   `(rainbow-delimiters-depth-2-face ((t (:foreground ,orange))))
-   `(rainbow-delimiters-depth-3-face ((t (:foreground ,saltwatertaffy))))
-   `(rainbow-delimiters-depth-4-face ((t (:foreground ,dress))))
-   `(rainbow-delimiters-depth-5-face ((t (:foreground ,coffee))))
-   `(rainbow-delimiters-depth-6-face ((t (:foreground ,dirtyblonde))))
-   `(rainbow-delimiters-depth-7-face ((t (:foreground ,orange))))
-   `(rainbow-delimiters-depth-8-face ((t (:foreground ,saltwatertaffy))))
-   `(rainbow-delimiters-depth-9-face ((t (:foreground ,dress))))
+   `(rainbow-delimiters-depth-1-face ((t (:foreground "#8D837A"))))
+   `(rainbow-delimiters-depth-2-face ((t (:foreground "#ED942F"))))
+   `(rainbow-delimiters-depth-3-face ((t (:foreground "#E8E043"))))
+   `(rainbow-delimiters-depth-4-face ((t (:foreground "#9CE14E"))))
+   `(rainbow-delimiters-depth-5-face ((t (:foreground "#00E542"))))
+   `(rainbow-delimiters-depth-6-face ((t (:foreground ,saltwatertaffy))))
+   `(rainbow-delimiters-depth-7-face ((t (:foreground ,dress))))
+   `(rainbow-delimiters-depth-8-face ((t (:foreground ,toffee))))
+   `(rainbow-delimiters-depth-9-face ((t (:foreground ,darkroast))))
    `(rainbow-delimiters-unmatched-face ((t (:foreground ,taffy))))))
 
 ;;;###autoload
