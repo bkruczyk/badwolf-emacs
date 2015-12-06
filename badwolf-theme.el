@@ -123,7 +123,7 @@
    `(lazy-highlight ((t (:foreground ,coal :background ,dalespale))))
 
    ;; show-paren-mode
-   `(show-paren-match ((t (:foreground ,coal :background ,saltwatertaffy))))
+   `(show-paren-match ((t (:foreground ,coal :background ,dalespale))))
    `(show-paren-mismatch ((t (:foreground ,coal :background ,taffy))))
 
    ;; anzu
