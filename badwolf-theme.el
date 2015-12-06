@@ -94,7 +94,7 @@
    `(vertical-border ((t (:foreground ,gravel))))
    `(highlight ((t (:foreground ,coal :background ,dalespale))))
    `(escape-glyph ((t (:foreground ,tardis))))
-   `(hl-line ((t (:inherit nil :background ,darkgravel))))
+   `(hl-line ((t (:inherit nil :background "#292826"))))
    `(minibuffer-prompt ((t (:foreground ,lime))))
    `(mode-line ((t (:box nil :foreground ,snow :background "#595959"))))
    `(mode-line-inactive ((t (:box nil :foreground "#848484" :background "#333333"))))
