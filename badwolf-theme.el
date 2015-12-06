@@ -105,15 +105,17 @@
    ;; whitespace-mode
    `(trailing-whitespace ((t (:background ,taffy :foreground ,blackestgravel))))
    `(whitespace-trailing ((t (:background ,taffy :foreground ,blackestgravel))))
-   `(whitespace-empty ((t :background ,darkgravel :foreground ,taffy)))
-   `(whitespace-line ((t (:background ,darkgravel :foreground ,dress))))
-   `(whitespace-hspace ((t (:background ,blackgravel :foreground ,gravel))))
-   `(whitespace-space ((t (:background ,blackgravel :foreground ,gravel))))
-   `(whitespace-tab ((t (:background ,blackgravel :foreground ,gravel))))
-   `(whitespace-newline ((t (:background ,blackgravel :foreground ,gravel))))
-   `(whitespace-indentation ((t (:background ,dalespale :foreground ,taffy))))
-   `(whitespace-space-after-tab ((t (:background ,dalespale :foreground ,taffy))))
-   `(whitespace-space-before-tab ((t (:background ,dalespale :foreground ,taffy))))
+   `(whitespace-empty ((t :background ,dirtyblonde)))
+   `(whitespace-line ((t (:background ,deepergravel :foreground ,dress))))
+
+   `(whitespace-hspace ((t (:foreground ,mediumgravel))))
+   `(whitespace-space ((t (:foreground ,mediumgravel))))
+   `(whitespace-tab ((t (:foreground ,mediumgravel))))
+   `(whitespace-newline ((t (:foreground ,mediumgravel))))
+
+   `(whitespace-indentation ((t (:background ,dirtyblonde :foreground ,taffy))))
+   `(whitespace-space-after-tab ((t (:background ,dirtyblonde :foreground ,taffy))))
+   `(whitespace-space-before-tab ((t (:background ,dirtyblonde :foreground ,taffy))))
 
    ;; search
    `(isearch ((t (:foreground ,coal :background ,saltwatertaffy))))
