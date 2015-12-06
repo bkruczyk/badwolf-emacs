@@ -87,7 +87,7 @@
 
    ;; ui
    `(cursor ((t (:background ,tardis))))
-   `(region ((t (:foreground nil :background ,mediumgravel ))))
+   `(region ((t (:foreground nil :background ,mediumgravel))))
    `(secondary-selection ((t (:foreground ,darkgravel :background ,tardis))))
    `(fringe ((t (:background ,bg))))
    `(linum ((t (:foreground ,mediumgravel :background ,bg))))
