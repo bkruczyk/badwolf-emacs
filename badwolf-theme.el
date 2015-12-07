@@ -134,15 +134,15 @@
    `(anzu-replace-to ((t (:background ,dalespale :foreground ,coal))))
 
    ;; rainbow-delimiters
-   `(rainbow-delimiters-depth-1-face ((t (:foreground "#8D837A"))))
-   `(rainbow-delimiters-depth-2-face ((t (:foreground "#ED942F"))))
-   `(rainbow-delimiters-depth-3-face ((t (:foreground "#E8E043"))))
-   `(rainbow-delimiters-depth-4-face ((t (:foreground "#9CE14E"))))
-   `(rainbow-delimiters-depth-5-face ((t (:foreground "#00E542"))))
-   `(rainbow-delimiters-depth-6-face ((t (:foreground ,saltwatertaffy))))
-   `(rainbow-delimiters-depth-7-face ((t (:foreground ,dress))))
-   `(rainbow-delimiters-depth-8-face ((t (:foreground ,toffee))))
-   `(rainbow-delimiters-depth-9-face ((t (:foreground ,darkroast))))
+   `(rainbow-delimiters-depth-1-face ((t (:foreground ,gravel))))
+   `(rainbow-delimiters-depth-2-face ((t (:foreground ,orange))))
+   `(rainbow-delimiters-depth-3-face ((t (:foreground ,saltwatertaffy))))
+   `(rainbow-delimiters-depth-4-face ((t (:foreground ,dress))))
+   `(rainbow-delimiters-depth-5-face ((t (:foreground ,coffee))))
+   `(rainbow-delimiters-depth-6-face ((t (:foreground ,dirtyblonde))))
+   `(rainbow-delimiters-depth-7-face ((t (:foreground ,orange))))
+   `(rainbow-delimiters-depth-8-face ((t (:foreground ,saltwatertaffy))))
+   `(rainbow-delimiters-depth-9-face ((t (:foreground ,dress))))
    `(rainbow-delimiters-unmatched-face ((t (:foreground ,taffy))))))
 
 ;;;###autoload
