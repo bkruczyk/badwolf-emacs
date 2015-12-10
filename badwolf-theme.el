@@ -143,7 +143,22 @@
    `(rainbow-delimiters-depth-7-face ((t (:foreground ,orange))))
    `(rainbow-delimiters-depth-8-face ((t (:foreground ,saltwatertaffy))))
    `(rainbow-delimiters-depth-9-face ((t (:foreground ,dress))))
-   `(rainbow-delimiters-unmatched-face ((t (:foreground ,taffy))))))
+   `(rainbow-delimiters-unmatched-face ((t (:foreground ,taffy))))
+
+   ;; company
+   `(company-echo-common ((t (:foreground ,plain))))
+   `(company-preview ((t (:background ,deepergravel :foreground ,plain))))
+   `(company-preview-common ((t (:foreground ,orange))))
+   `(company-preview-search ((t (:foreground ,tardis))))
+   `(company-scrollbar-bg ((t (:background ,deepgravel))))
+   `(company-scrollbar-fg ((t (:background ,mediumgravel))))
+   `(company-tooltip ((t (:foreground ,plain :background ,deepergravel))))
+   `(company-tooltip-annotation ((t (:foreground ,coffee :background ,deepergravel))))
+   `(company-tooltip-common ((t (:foreground ,dress :background ,deepergravel))))
+   `(company-tooltip-common-selection ((t (:foreground ,dress :background ,deepergravel))))
+   `(company-tooltip-mouse ((t (:inherit highlight))))
+   `(company-tooltip-selection ((t (:background ,deepergravel :foreground ,orange))))
+   `(company-template-field ((t (:inherit region))))))
 
 ;;;###autoload
 (when load-file-name
