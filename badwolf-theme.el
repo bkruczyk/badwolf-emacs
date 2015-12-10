@@ -158,7 +158,24 @@
    `(company-tooltip-common-selection ((t (:foreground ,dress :background ,deepergravel))))
    `(company-tooltip-mouse ((t (:inherit highlight))))
    `(company-tooltip-selection ((t (:background ,deepergravel :foreground ,orange))))
-   `(company-template-field ((t (:inherit region))))))
+   `(company-template-field ((t (:inherit region))))
+
+   ;; org
+   `(outline-1 ((t (:foreground ,orange :height 1.2))))
+   `(outline-2 ((t (:foreground ,brightgravel))))
+   `(outline-3 ((t (:foreground ,saltwatertaffy))))
+   `(outline-4 ((t (:foreground ,dress))))
+   `(outline-5 ((t (:foreground ,coffee))))
+   `(outline-6 ((t (:foreground ,dirtyblonde))))
+   `(outline-7 ((t (:foreground ,orange))))
+   `(outline-8 ((t (:foreground ,taffy))))
+
+   `(org-done ((t (:foreground ,saltwatertaffy :weight bold))))
+   `(org-todo ((t (:foreground ,dalespale :weight bold))))
+   `(org-date ((t (:foreground ,dress :underline t))))
+   `(org-special-keyword ((t (:foreground ,dress))))
+   `(org-document-info ((t (:foreground ,brightgravel))))
+   `(org-document-title ((t (:foreground ,plain :family "sans" :height 1.8 :weight bold))))))
 
 ;;;###autoload
 (when load-file-name
