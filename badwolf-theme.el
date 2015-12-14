@@ -82,7 +82,7 @@
    `(font-lock-warning-face ((t (:foreground ,dress :weight bold))))
    `(shadow ((t (:foreground ,mediumgravel))))
    `(success ((t (:foreground ,lime))))
-   `(error ((t (:foreground ,taffy))))
+   `(error ((t (:foreground ,dress :weight bold))))
    `(warning ((t (:foreground ,orange))))
 
    ;; ui
