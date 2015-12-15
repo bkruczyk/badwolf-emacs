@@ -3,7 +3,7 @@
 ;; Copyright (C) 2015  Bartłomiej Kruczyk
 
 ;; Author: bkruczyk <bartlomiej.kruczyk@gmail.com>
-;; Version: 1.1
+;; Version: 1.2
 ;; Keywords: themes
 ;; Package-Requires: ((emacs "24"))
 ;; URL: https://github.com/bkruczyk/badwolf-emacs
