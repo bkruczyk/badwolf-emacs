@@ -117,6 +117,18 @@
    `(whitespace-space-after-tab ((t (:background ,dirtyblonde :foreground ,taffy))))
    `(whitespace-space-before-tab ((t (:background ,dirtyblonde :foreground ,taffy))))
 
+   ;; ruler-mode
+   `(ruler-mode-default ((t :inherit linum :underline t)))
+   `(ruler-mode-column-number ((t (:foreground ,lightgravel :background ,bg :underline ,mediumgravel))))
+   `(ruler-mode-fill-column ((t (:foreground ,dirtyblonde :background ,bg :underline ,mediumgravel))))
+   `(ruler-mode-goal-column ((t (:inherit 'ruler-mode-fill-column))))
+   `(ruler-mode-comment-column ((t (:inherit 'ruler-mode-fill-column))))
+   `(ruler-mode-tab-stop ((t (:inherit 'ruler-mode-fill-column))))
+   `(ruler-mode-current-column ((t (:foreground ,tardis :background ,bg :underline ,mediumgravel))))
+   `(ruler-mode-margins ((t (:inherit ruler-mode-default))))
+   `(ruler-mode-fringes ((t (:inherit ruler-mode-default))))
+   `(ruler-mode-pad ((t (:inherit ruler-mode-default))))
+
    ;; search
    `(isearch ((t (:foreground ,coal :background ,saltwatertaffy))))
    `(isearch-fail ((t (:foreground ,coal :background ,taffy))))
@@ -145,6 +157,12 @@
    `(rainbow-delimiters-depth-9-face ((t (:foreground ,dress))))
    `(rainbow-delimiters-unmatched-face ((t (:foreground ,taffy))))
 
+   ;; eshell
+   `(eshell-prompt ((t (:inherit minibuffer-prompt))))
+
+   ;; which-function-mode
+   `(which-func ((t :inherit font-lock-function-name-face)))
+
    ;; company
    `(company-echo-common ((t (:foreground ,plain))))
    `(company-preview ((t (:background ,deepergravel :foreground ,plain))))
@@ -159,6 +177,13 @@
    `(company-tooltip-mouse ((t (:inherit highlight))))
    `(company-tooltip-selection ((t (:background ,deepergravel :foreground ,orange))))
    `(company-template-field ((t (:inherit region))))
+
+  ;; ivy
+   `(ivy-current-match ((t :inherit highlight)))
+   `(ivy-minibuffer-match-face-1 ((t :bold t)))
+   `(ivy-minibuffer-match-face-2 ((t :foreground ,taffy :bold t)))
+   `(ivy-minibuffer-match-face-3 ((t :foreground ,taffy :bold t)))
+   `(ivy-minibuffer-match-face-4 ((t :foreground ,taffy :bold t)))
 
    ;; org
    `(outline-1 ((t (:foreground ,orange :height 1.2))))
@@ -175,7 +200,20 @@
    `(org-date ((t (:foreground ,dress :underline t))))
    `(org-special-keyword ((t (:foreground ,dress))))
    `(org-document-info ((t (:foreground ,brightgravel))))
-   `(org-document-title ((t (:foreground ,plain :family "sans" :height 1.8 :weight bold))))))
+   `(org-document-title ((t (:foreground ,plain :family "sans" :height 1.8 :weight bold))))
+
+   ;; erc
+   `(erc-default-face ((t (:inherit default))))
+   `(erc-notice-face ((t (:inherit font-lock-comment-face))))
+   `(erc-nick-default-face ((t (:foreground ,taffy :bold t))))
+   `(erc-nick-msg-face ((t (:inherit erc-nick-default-face))))
+   `(erc-my-nick-face ((t (:foreground ,orange :bold t))))
+   `(erc-current-nick-face ((t (:inherit erc-my-nick-face))))
+   `(erc-direct-msg-face ((t (:foreground ,snow))))
+   `(erc-input-face ((t (:foreground ,dress))))
+   `(erc-prompt-face ((t (:foreground ,tardis))))
+   `(erc-button ((t (:inherit link))))
+   `(erc-timestamp-face ((t (:foreground ,lime))))))
 
 ;;;###autoload
 (when load-file-name
