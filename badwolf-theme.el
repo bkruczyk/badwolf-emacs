@@ -70,7 +70,7 @@
    ;; font lock
    `(default ((t (:inherit nil :foreground ,plain :background ,bg))))
    `(font-lock-builtin-face ((t (:foreground ,brightgravel))))
-   `(font-lock-comment-face ((t (:foreground ,lightgravel))))
+   `(font-lock-comment-face ((t (:foreground ,lightgravel :italic t))))
    `(font-lock-comment-delimiter-face ((t (:foreground ,lightgravel))))
    `(font-lock-constant-face ((t (:foreground ,orange))))
    `(font-lock-doc-face ((t (:foreground ,snow))))
