@@ -70,7 +70,7 @@
    ;; font lock
    `(default ((t (:inherit nil :foreground ,plain :background ,bg))))
    `(font-lock-builtin-face ((t (:foreground ,brightgravel))))
-   `(font-lock-comment-face ((t (:foreground ,lightgravel))))
+   `(font-lock-comment-face ((t (:foreground ,lightgravel :italic t))))
    `(font-lock-comment-delimiter-face ((t (:foreground ,lightgravel))))
    `(font-lock-constant-face ((t (:foreground ,orange))))
    `(font-lock-doc-face ((t (:foreground ,snow))))
@@ -213,7 +213,12 @@
    `(erc-input-face ((t (:foreground ,dress))))
    `(erc-prompt-face ((t (:foreground ,tardis))))
    `(erc-button ((t (:inherit link))))
-   `(erc-timestamp-face ((t (:foreground ,lime))))))
+   `(erc-timestamp-face ((t (:foreground ,lime))))
+
+   ;; diff-hl
+   `(diff-hl-insert ((t (:foreground ,lime :background ,bg))))
+   `(diff-hl-delete ((t (:foreground ,taffy :background ,bg))))
+   `(diff-hl-change ((t (:foreground ,orange :background ,bg))))))
 
 ;;;###autoload
 (when load-file-name
