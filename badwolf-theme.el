@@ -69,13 +69,13 @@
 
    ;; font lock
    `(default ((t (:inherit nil :foreground ,plain :background ,bg))))
-   `(font-lock-builtin-face ((t (:foreground ,brightgravel))))
+   `(font-lock-builtin-face ((t (:foreground ,plain))))
    `(font-lock-comment-face ((t (:foreground ,lightgravel))))
    `(font-lock-comment-delimiter-face ((t (:foreground ,lightgravel))))
    `(font-lock-constant-face ((t (:foreground ,orange))))
    `(font-lock-doc-face ((t (:foreground ,snow))))
-   `(font-lock-function-name-face ((t (:foreground ,orange))))
-   `(font-lock-keyword-face ((t (:foreground ,taffy :weight bold))))
+   `(font-lock-function-name-face ((t (:foreground ,plain))))
+   `(font-lock-keyword-face ((t (:foreground ,taffy))))
    `(font-lock-string-face ((t (:foreground ,dirtyblonde))))
    `(font-lock-type-face ((t (:foreground ,dress))))
    `(font-lock-variable-name-face ((t (:foreground ,plain))))
