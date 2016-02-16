@@ -39,7 +39,7 @@
 
 (deftheme badwolf "Bad Wolf color theme")
 
-(let ((bg "#222120")
+(let ((bg "#1c1b1a")
       (plain "#f8f6f2")
       (snow "#ffffff")
       (coal "#000000")
