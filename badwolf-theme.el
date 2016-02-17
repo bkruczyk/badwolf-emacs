@@ -213,7 +213,12 @@
    `(erc-input-face ((t (:foreground ,dress))))
    `(erc-prompt-face ((t (:foreground ,tardis))))
    `(erc-button ((t (:inherit link))))
-   `(erc-timestamp-face ((t (:foreground ,lime))))))
+   `(erc-timestamp-face ((t (:foreground ,lime))))
+
+   ;; diff-hl
+   `(diff-hl-insert ((t (:foreground ,lime :background ,bg))))
+   `(diff-hl-delete ((t (:foreground ,taffy :background ,bg))))
+   `(diff-hl-change ((t (:foreground ,orange :background ,bg))))))
 
 ;;;###autoload
 (when load-file-name
