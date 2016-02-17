@@ -52,16 +52,19 @@ M-x load-theme RET badwolf RET
 Screenshots
 -----------
 
-### Clojurescript
-
-![Clojurescript](screenshots/cljs.png)
-
 ### Ruby
 
 ![Ruby](screenshots/ruby.png)
+
+### Clojurescript
+
+![Clojurescript](screenshots/cljs.png)
 
 Contributing
 ------------
 
 Feel free to open issue or send pull request if you want your
 favourite mode supported.
+
+I would like to keep this theme as similar as possible to original Vim
+theme, so please keep that in mind when submitting your changes.
