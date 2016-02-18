@@ -108,10 +108,10 @@
    `(whitespace-empty ((t :background ,dirtyblonde)))
    `(whitespace-line ((t (:background ,deepergravel :foreground ,dress))))
 
-   `(whitespace-hspace ((t (:foreground ,mediumgravel))))
-   `(whitespace-space ((t (:foreground ,mediumgravel))))
-   `(whitespace-tab ((t (:foreground ,mediumgravel))))
-   `(whitespace-newline ((t (:foreground ,mediumgravel))))
+   `(whitespace-hspace ((t (:foreground ,deepgravel))))
+   `(whitespace-space ((t (:foreground ,deepgravel))))
+   `(whitespace-tab ((t (:foreground ,deepgravel))))
+   `(whitespace-newline ((t (:foreground ,deepgravel))))
 
    `(whitespace-indentation ((t (:background ,dirtyblonde :foreground ,taffy))))
    `(whitespace-space-after-tab ((t (:background ,dirtyblonde :foreground ,taffy))))
