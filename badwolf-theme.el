@@ -165,17 +165,17 @@
 
    ;; company
    `(company-echo-common ((t (:foreground ,plain))))
-   `(company-preview ((t (:background ,deepergravel :foreground ,plain))))
+   `(company-preview ((t (:background ,darkgravel :foreground ,plain))))
    `(company-preview-common ((t (:foreground ,orange))))
    `(company-preview-search ((t (:foreground ,tardis))))
    `(company-scrollbar-bg ((t (:background ,deepgravel))))
    `(company-scrollbar-fg ((t (:background ,mediumgravel))))
-   `(company-tooltip ((t (:foreground ,plain :background ,deepergravel))))
-   `(company-tooltip-annotation ((t (:foreground ,coffee :background ,deepergravel))))
-   `(company-tooltip-common ((t (:foreground ,dress :background ,deepergravel))))
-   `(company-tooltip-common-selection ((t (:foreground ,dress :background ,deepergravel))))
+   `(company-tooltip ((t (:foreground ,plain :background ,darkgravel))))
+   `(company-tooltip-annotation ((t (:foreground ,coffee :background ,darkgravel))))
+   `(company-tooltip-common ((t (:foreground ,dress :background ,darkgravel))))
+   `(company-tooltip-common-selection ((t (:foreground ,dress :background ,darkgravel))))
    `(company-tooltip-mouse ((t (:inherit highlight))))
-   `(company-tooltip-selection ((t (:background ,deepergravel :foreground ,orange))))
+   `(company-tooltip-selection ((t (:background ,darkgravel :foreground ,orange))))
    `(company-template-field ((t (:inherit region))))
 
   ;; ivy
