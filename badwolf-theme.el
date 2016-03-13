@@ -187,13 +187,6 @@
 
    ;; org
    `(outline-1 ((t (:foreground ,orange :height 1.2))))
-   `(outline-2 ((t (:foreground ,brightgravel))))
-   `(outline-3 ((t (:foreground ,saltwatertaffy))))
-   `(outline-4 ((t (:foreground ,dress))))
-   `(outline-5 ((t (:foreground ,coffee))))
-   `(outline-6 ((t (:foreground ,dirtyblonde))))
-   `(outline-7 ((t (:foreground ,orange))))
-   `(outline-8 ((t (:foreground ,taffy))))
 
    `(org-done ((t (:foreground ,saltwatertaffy :weight bold))))
    `(org-todo ((t (:foreground ,dalespale :weight bold))))
