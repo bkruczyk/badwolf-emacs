@@ -158,7 +158,7 @@
    `(rainbow-delimiters-unmatched-face ((t (:foreground ,taffy))))
 
    ;; eshell
-   `(eshell-prompt ((t (:inherit minibuffer-prompt))))
+   `(eshell-prompt ((t (:foreground ,tardis))))
 
    ;; which-function-mode
    `(which-func ((t :inherit font-lock-function-name-face)))
