@@ -64,6 +64,13 @@
       (coffee "#c7915b")
       (darkroast "#88633f"))
 
+  (custom-theme-set-variables
+   'badwolf
+   `(notmuch-search-line-faces
+     '(("unread" :foreground ,saltwatertaffy)
+       ("flagged" :foreground ,taffy)
+       ("deleted" :foreground ,dress :bold t))))
+
   (custom-theme-set-faces
    'badwolf
 
@@ -207,6 +214,19 @@
    `(erc-prompt-face ((t (:foreground ,tardis))))
    `(erc-button ((t (:inherit link))))
    `(erc-timestamp-face ((t (:foreground ,lime))))
+
+   ;; notmuch
+   `(notmuch-tag-face ((t (:foreground ,dirtyblonde))))
+
+   ;; message
+   `(message-cited-text ((t :foreground ,dress)))
+   `(message-header-cc ((t (:foreground ,toffee))))
+   `(message-header-name ((t (:foreground ,brightgravel))))
+   `(message-header-other ((t (:foreground ,taffy))))
+   `(message-header-subject ((t (:foreground ,orange :weight bold))))
+   `(message-header-to ((t (:inherit message-header-subject))))
+   `(message-header-xheader ((t (:foreground ,lime))))
+   `(message-mml ((t (:foreground ,tardis))))
 
    ;; diff-hl
    `(diff-hl-insert ((t (:foreground ,lime :background ,bg))))
