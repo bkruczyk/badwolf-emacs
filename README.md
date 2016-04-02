@@ -1,8 +1,10 @@
 `badwolf-emacs`
 ===============
 
-An Emacs port of [Bad Wolf](https://github.com/sjl/badwolf)
-theme for Vim.
+An Emacs port of [Bad Wolf](https://github.com/sjl/badwolf) theme for
+Vim.
+
+![](screenshots/cljs.png)
 
 Installation
 ------------
@@ -48,17 +50,6 @@ or interactively:
 ```
 M-x load-theme RET badwolf RET
 ```
-
-Screenshots
------------
-
-### Ruby
-
-![Ruby](screenshots/ruby.png)
-
-### Clojurescript
-
-![Clojurescript](screenshots/cljs.png)
 
 Contributing
 ------------
