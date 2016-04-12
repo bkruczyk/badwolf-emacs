@@ -142,7 +142,7 @@
    `(lazy-highlight ((t (:foreground ,coal :background ,dalespale))))
 
    ;; show-paren-mode
-   `(show-paren-match ((t (:foreground ,coal :background ,dalespale))))
+   `(show-paren-match ((t (:foreground ,dalespale :background ,bg :bold t))))
    `(show-paren-mismatch ((t (:foreground ,coal :background ,taffy))))
 
    ;; anzu
