@@ -137,9 +137,9 @@
    `(ruler-mode-pad ((t (:inherit ruler-mode-default))))
 
    ;; search
-   `(isearch ((t (:foreground ,coal :background ,saltwatertaffy))))
-   `(isearch-fail ((t (:foreground ,coal :background ,taffy))))
-   `(lazy-highlight ((t (:foreground ,coal :background ,dalespale))))
+   `(isearch ((t (:foreground ,coal :background ,dress :bold t))))
+   `(isearch-fail ((t (:foreground ,taffy :background ,coal :bold t))))
+   `(lazy-highlight ((t (:foreground ,coal :background ,dalespale :bold t))))
 
    ;; show-paren-mode
    `(show-paren-match ((t (:foreground ,dalespale :background ,bg :bold t))))
@@ -148,9 +148,9 @@
    ;; anzu
    `(anzu-match-1 ((t (:background ,lime :foreground ,coal))))
    `(anzu-match-2 ((t (:background ,dalespale :foreground ,coal))))
-   `(anzu-match-3 ((t (:background ,tardis :foreground ,coal))))
+   `(anzu-match-3 ((t (:background ,orange :foreground ,coal))))
    `(anzu-mode-line ((t (:foreground ,dress))))
-   `(anzu-replace-to ((t (:background ,dalespale :foreground ,coal))))
+   `(anzu-replace-to ((t (:background ,tardis :foreground ,coal :bold t))))
 
    ;; rainbow-delimiters
    `(rainbow-delimiters-depth-1-face ((t (:foreground ,mediumgravel))))
