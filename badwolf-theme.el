@@ -67,9 +67,9 @@
   (custom-theme-set-variables
    'badwolf
    `(notmuch-search-line-faces
-     '(("unread" :foreground ,saltwatertaffy)
-       ("flagged" :foreground ,taffy)
-       ("deleted" :foreground ,dress :bold t))))
+     '(("unread" :foreground ,lime)
+       ("flagged" :foreground ,dress)
+       ("deleted" :foreground ,taffy :bold t))))
 
   (custom-theme-set-faces
    'badwolf
@@ -219,14 +219,14 @@
    `(notmuch-tag-face ((t (:foreground ,dirtyblonde))))
 
    ;; message
-   `(message-cited-text ((t :foreground ,dress)))
-   `(message-header-cc ((t (:foreground ,toffee))))
-   `(message-header-name ((t (:foreground ,brightgravel))))
-   `(message-header-other ((t (:foreground ,taffy))))
-   `(message-header-subject ((t (:foreground ,orange :weight bold))))
-   `(message-header-to ((t (:inherit message-header-subject))))
-   `(message-header-xheader ((t (:foreground ,lime))))
-   `(message-mml ((t (:foreground ,tardis))))
+   `(message-cited-text ((t :foreground ,dirtyblonde)))
+   `(message-header-cc ((t (:foreground ,dress))))
+   `(message-header-name ((t (:foreground ,lightgravel))))
+   `(message-header-other ((t (:foreground ,plain))))
+   `(message-header-subject ((t (:foreground ,orange))))
+   `(message-header-to ((t (:foreground ,dress))))
+   `(message-header-xheader ((t (:foreground ,plain))))
+   `(message-mml ((t (:foreground ,lightgravel))))
 
    ;; diff-hl
    `(diff-hl-insert ((t (:foreground ,lime :background ,bg))))
