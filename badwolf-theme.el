@@ -102,7 +102,7 @@
    `(highlight ((t (:foreground ,coal :background ,dalespale))))
    `(escape-glyph ((t (:foreground ,tardis))))
    `(hl-line ((t (:inherit nil :background "#292826"))))
-   `(minibuffer-prompt ((t (:foreground ,lime))))
+   `(minibuffer-prompt ((t (:foreground ,plain))))
    `(mode-line ((t (:box nil :foreground ,snow :background "#595959"))))
    `(mode-line-inactive ((t (:box nil :foreground "#848484" :background "#333333"))))
    `(header-line ((t (:inherit mode-line))))
@@ -184,6 +184,17 @@
    `(company-tooltip-mouse ((t (:inherit highlight))))
    `(company-tooltip-selection ((t (:background ,darkgravel :foreground ,orange))))
    `(company-template-field ((t (:inherit region))))
+
+   ;; ido et al
+   `(ido-first-match ((t (:foreground ,orange))))
+   `(ido-only-match ((t (:foreground ,plain))))
+   `(ido-subdir ((t (:foreground ,dress))))
+   `(ido-indicator ((t (:foreground ,lime))))
+   `(ido-incomplete-regexp ((t (:foreground ,taffy :weight bold))))
+
+   `(ido-vertical-match-face ((t (:weight normal :underline nil :foreground ,dress))))
+
+   `(flx-highlight-face ((t (:foreground ,dress :weight normal :underline nil))))
 
   ;; ivy
    `(ivy-current-match ((t :inherit highlight)))
