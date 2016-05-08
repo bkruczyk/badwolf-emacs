@@ -82,7 +82,7 @@
    `(font-lock-constant-face ((t (:foreground ,orange))))
    `(font-lock-doc-face ((t (:foreground ,snow))))
    `(font-lock-function-name-face ((t (:foreground ,plain))))
-   `(font-lock-keyword-face ((t (:foreground ,taffy :bold t))))
+   `(font-lock-keyword-face ((t (:foreground ,taffy))))
    `(font-lock-string-face ((t (:foreground ,dirtyblonde))))
    `(font-lock-type-face ((t (:foreground ,dress))))
    `(font-lock-variable-name-face ((t (:foreground ,plain))))
