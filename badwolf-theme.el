@@ -232,7 +232,7 @@
    ;; message
    `(message-cited-text ((t :foreground ,dirtyblonde)))
    `(message-header-cc ((t (:foreground ,dress))))
-   `(message-header-name ((t (:foreground ,lightgravel))))
+   `(message-header-name ((t (:foreground ,taffy))))
    `(message-header-other ((t (:foreground ,plain))))
    `(message-header-subject ((t (:foreground ,orange))))
    `(message-header-to ((t (:foreground ,dress))))
