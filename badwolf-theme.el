@@ -82,7 +82,7 @@
    `(font-lock-constant-face ((t (:foreground ,orange))))
    `(font-lock-doc-face ((t (:foreground ,snow))))
    `(font-lock-function-name-face ((t (:foreground ,plain))))
-   `(font-lock-keyword-face ((t (:foreground ,taffy))))
+   `(font-lock-keyword-face ((t (:foreground ,taffy :weight bold))))
    `(font-lock-string-face ((t (:foreground ,dirtyblonde))))
    `(font-lock-type-face ((t (:foreground ,dress))))
    `(font-lock-variable-name-face ((t (:foreground ,plain))))
@@ -187,8 +187,8 @@
 
    ;; ido et al
    `(ido-first-match ((t (:foreground ,orange))))
-   `(ido-only-match ((t (:foreground ,plain))))
-   `(ido-subdir ((t (:foreground ,dress))))
+   `(ido-only-match ((t (:foreground ,dress))))
+   `(ido-subdir ((t (:foreground ,plain))))
    `(ido-indicator ((t (:foreground ,lime))))
    `(ido-incomplete-regexp ((t (:foreground ,taffy :weight bold))))
 
