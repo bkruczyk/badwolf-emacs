@@ -39,6 +39,15 @@
 
 (deftheme badwolf "Bad Wolf color theme")
 
+(defgroup badwolf nil
+  "Badwolf theme customization variables."
+  :group 'faces)
+
+(defcustom badwolf-diff-hl-inverse nil
+  "Inverse diff-hl faces."
+  :type 'boolean
+  :group 'badwolf)
+
 (let ((bg "#1c1b1a")
       (plain "#f8f6f2")
       (snow "#ffffff")
@@ -277,9 +286,15 @@
    `(magit-section-heading-selection ((t (:foreground ,dalespale))))
 
    ;; diff-hl
-   `(diff-hl-insert ((t (:foreground ,lime :background ,bg))))
-   `(diff-hl-delete ((t (:foreground ,taffy :background ,bg))))
-   `(diff-hl-change ((t (:foreground ,orange :background ,bg))))))
+   `(diff-hl-insert ((t ,(if badwolf-diff-hl-inverse
+                             `(:background ,bg :foreground ,lime)
+                           `(:background ,lime :foreground ,bg)))))
+   `(diff-hl-delete ((t ,(if badwolf-diff-hl-inverse
+                             `(:background ,bg :foreground ,taffy)
+                           `(:background ,taffy :foreground ,bg)))))
+   `(diff-hl-change ((t ,(if badwolf-diff-hl-inverse
+                             `(:background ,bg :foreground ,orange)
+                           `(:background ,orange :foreground ,bg)))))))
 
 ;;;###autoload
 (when load-file-name
