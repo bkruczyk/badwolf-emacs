@@ -51,6 +51,18 @@ or interactively:
 M-x load-theme RET badwolf RET
 ```
 
+Customization
+-------------
+
+Diff-hl colors can be inversed (eg. for addtion there will appear plus
+sign on fringe/margin instead of rectangle):
+
+``` emacs-lisp
+(setq badwolf-diff-hl-inverse t)
+```
+
+*NOTE:* This variable must be set before loading theme.
+
 Contributing
 ------------
 
