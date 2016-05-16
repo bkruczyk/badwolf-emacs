@@ -54,8 +54,8 @@ M-x load-theme RET badwolf RET
 Customization
 -------------
 
-Diff-hl colors can be inversed (eg. for addtion there will appear plus
-sign on fringe/margin instead of rectangle):
+Diff-hl colors can be inversed for nicer look when diff-hl-margin-mode
+is enabled:
 
 ``` emacs-lisp
 (setq badwolf-diff-hl-inverse t)
