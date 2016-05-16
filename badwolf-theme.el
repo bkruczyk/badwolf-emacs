@@ -207,19 +207,19 @@
 
   ;; ivy
    `(ivy-confirm-face ((t :foreground ,lime)))
-   `(ivy-current-match ((t :foreground ,orange)))
+   `(ivy-current-match ((t :bold t :background "#292826")))
    `(ivy-match-required-face ((t :foreground ,taffy)))
    `(ivy-minibuffer-match-face-1 ((t :inherit nil)))
-   `(ivy-minibuffer-match-face-2 ((t :foreground ,dress)))
-   `(ivy-minibuffer-match-face-3 ((t :foreground ,dress)))
-   `(ivy-minibuffer-match-face-4 ((t :foreground ,dress)))
+   `(ivy-minibuffer-match-face-2 ((t :foreground ,orange)))
+   `(ivy-minibuffer-match-face-3 ((t :foreground ,orange)))
+   `(ivy-minibuffer-match-face-4 ((t :foreground ,orange)))
    `(ivy-remote ((t :foreground ,tardis)))
 
    `(swiper-line-face ((t :inherit nil :background "#292826")))
    `(swiper-match-face-1 ((t :inherit nil)))
    `(swiper-match-face-2 ((t :foreground ,bg :background ,dalespale :bold t)))
    `(swiper-match-face-3 ((t :foreground ,bg :background ,dress :bold t)))
-   `(swiper-match-face-4 ((t :foreground ,bg :background ,orange :bold t)))
+   `(swiper-match-face-4 ((t :foreground ,bg :background ,tardis :bold t)))
 
    ;; org
    `(outline-1 ((t (:foreground ,orange :height 1.2))))
