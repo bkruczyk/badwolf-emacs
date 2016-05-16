@@ -48,6 +48,11 @@
   :type 'boolean
   :group 'badwolf)
 
+(defcustom badwolf-keywords-nobold nil
+  "Do not use bold for keywords."
+  :type 'boolean
+  :group 'badwolf)
+
 (let* ((plain "#f8f6f2")
        (snow "#ffffff")
        (coal "#000000")
@@ -93,7 +98,7 @@
    `(font-lock-constant-face ((t (:foreground ,orange))))
    `(font-lock-doc-face ((t (:foreground ,snow))))
    `(font-lock-function-name-face ((t (:foreground ,plain))))
-   `(font-lock-keyword-face ((t (:foreground ,taffy :weight bold))))
+   `(font-lock-keyword-face ((t (:foreground ,taffy ,@(when (not badwolf-keywords-nobold) `(:weight bold))))))
    `(font-lock-string-face ((t (:foreground ,dirtyblonde))))
    `(font-lock-type-face ((t (:foreground ,dress))))
    `(font-lock-variable-name-face ((t (:foreground ,plain))))

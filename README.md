@@ -61,7 +61,13 @@ is enabled:
 (setq badwolf-diff-hl-inverse t)
 ```
 
-*NOTE:* This variable must be set before loading theme.
+If you want not-bold keywords:
+
+``` emacs-lisp
+(setq badwolf-keywords-nobold t)
+```
+
+*NOTE:* Those variables must be set before loading theme.
 
 Contributing
 ------------
