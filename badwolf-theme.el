@@ -84,7 +84,7 @@
    'badwolf
    `(notmuch-search-line-faces
      '(("unread" :foreground ,lime)
-       ("flagged" :foreground ,dress)
+       ("flagged" :foreground ,tardis)
        ("deleted" :foreground ,taffy :bold t))))
 
   (custom-theme-set-faces
@@ -252,15 +252,15 @@
    `(erc-timestamp-face ((t (:foreground ,lime))))
 
    ;; notmuch
-   `(notmuch-tag-face ((t (:foreground ,dirtyblonde))))
+   `(notmuch-tag-face ((t (:foreground ,dress))))
 
    ;; message
    `(message-cited-text ((t :foreground ,dirtyblonde)))
-   `(message-header-cc ((t (:foreground ,dress))))
+   `(message-header-cc ((t (:foreground ,plain))))
    `(message-header-name ((t (:foreground ,taffy))))
    `(message-header-other ((t (:foreground ,plain))))
    `(message-header-subject ((t (:foreground ,orange))))
-   `(message-header-to ((t (:foreground ,dress))))
+   `(message-header-to ((t (:foreground ,plain))))
    `(message-header-xheader ((t (:foreground ,plain))))
    `(message-mml ((t (:foreground ,lightgravel))))
 
