@@ -299,14 +299,14 @@
 
    ;; diff-hl
    `(diff-hl-insert ((t ,(if badwolf-diff-hl-inverse
-                             `(:background ,bg :foreground ,lime)
-                           `(:background ,lime :foreground ,bg)))))
+                             `(:background ,bg :foreground ,saltwatertaffy)
+                           `(:background ,saltwatertaffy :foreground ,bg)))))
    `(diff-hl-delete ((t ,(if badwolf-diff-hl-inverse
-                             `(:background ,bg :foreground ,taffy)
-                           `(:background ,taffy :foreground ,bg)))))
+                             `(:background ,bg :foreground ,dress)
+                           `(:background ,dress :foreground ,bg)))))
    `(diff-hl-change ((t ,(if badwolf-diff-hl-inverse
-                             `(:background ,bg :foreground ,orange)
-                           `(:background ,orange :foreground ,bg)))))))
+                             `(:background ,bg :foreground ,dirtyblonde)
+                           `(:background ,dirtyblonde :foreground ,bg)))))))
 
 ;;;###autoload
 (when load-file-name
