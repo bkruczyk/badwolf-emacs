@@ -292,6 +292,11 @@
    `(magit-section-heading ((t (:foreground ,dirtyblonde))))
    `(magit-section-heading-selection ((t (:foreground ,dalespale))))
 
+   ;; smart-mode-line
+   `(sml/minor-modes ((t (:foreground ,orange))))
+   `(sml/line-number ((t (:foreground ,tardis :bold t))))
+   `(sml/vc-edited ((t (:foreground ,taffy))))
+
    ;; diff-hl
    `(diff-hl-insert ((t ,(if badwolf-diff-hl-inverse
                              `(:background ,bg :foreground ,lime)
