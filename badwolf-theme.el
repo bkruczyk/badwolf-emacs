@@ -126,8 +126,8 @@
    `(link-visited ((t (:inherit link :foreground ,orange))))
 
    ;; whitespace-mode
-   `(trailing-whitespace ((t (:background ,taffy :foreground ,blackestgravel))))
-   `(whitespace-trailing ((t (:background ,taffy :foreground ,blackestgravel))))
+   `(trailing-whitespace ((t (:background ,dress :foreground ,blackestgravel))))
+   `(whitespace-trailing ((t (:background ,dress :foreground ,blackestgravel))))
    `(whitespace-empty ((t :background ,dirtyblonde)))
    `(whitespace-line ((t (:background ,deepergravel :foreground ,dress))))
 
@@ -214,16 +214,16 @@
 
   ;; ivy
    `(ivy-confirm-face ((t :foreground ,lime)))
-   `(ivy-current-match ((t :bold t :background ,hl-line)))
+   `(ivy-current-match ((t :foreground ,orange)))
    `(ivy-match-required-face ((t :foreground ,taffy)))
    `(ivy-minibuffer-match-face-1 ((t :inherit nil)))
-   `(ivy-minibuffer-match-face-2 ((t :foreground ,orange)))
-   `(ivy-minibuffer-match-face-3 ((t :foreground ,orange)))
-   `(ivy-minibuffer-match-face-4 ((t :foreground ,orange)))
+   `(ivy-minibuffer-match-face-2 ((t :inherit nil)))
+   `(ivy-minibuffer-match-face-3 ((t :inherit nil)))
+   `(ivy-minibuffer-match-face-4 ((t :inherit nil)))
    `(ivy-remote ((t :foreground ,tardis)))
 
-   `(swiper-line-face ((t :inherit nil :background ,hl-line)))
-   `(swiper-match-face-1 ((t :inherit nil)))
+   `(swiper-line-face ((t :inherit nil)))
+   `(swiper-match-face-1 ((t :foreground ,plain)))
    `(swiper-match-face-2 ((t :foreground ,bg :background ,dalespale :bold t)))
    `(swiper-match-face-3 ((t :foreground ,bg :background ,dress :bold t)))
    `(swiper-match-face-4 ((t :foreground ,bg :background ,tardis :bold t)))
@@ -293,9 +293,7 @@
    `(magit-section-heading-selection ((t (:foreground ,dalespale))))
 
    ;; smart-mode-line
-   `(sml/minor-modes ((t (:foreground ,orange))))
-   `(sml/line-number ((t (:foreground ,tardis :bold t))))
-   `(sml/vc-edited ((t (:foreground ,taffy))))
+   `(sml/vc-edited ((t (:foreground ,orange))))
 
    ;; diff-hl
    `(diff-hl-insert ((t ,(if badwolf-diff-hl-inverse
