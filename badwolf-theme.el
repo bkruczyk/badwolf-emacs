@@ -293,7 +293,11 @@
    `(magit-section-heading-selection ((t (:foreground ,dalespale))))
 
    ;; smart-mode-line
-   `(sml/vc-edited ((t (:foreground ,orange))))
+   `(sml/global ((t (:foreground ,dirtyblonde))))
+   `(sml/vc-edited ((t (:foreground ,dress))))
+   `(sml/vc ((t (:foreground ,dirtyblonde))))
+   `(sml/modified ((t (:foreground ,taffy :bold t))))
+   `(sml/position-percentage ((t (:foreground ,dirtyblonde))))
 
    ;; diff-hl
    `(diff-hl-insert ((t ,(if badwolf-diff-hl-inverse
