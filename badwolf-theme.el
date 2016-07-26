@@ -69,15 +69,16 @@
        (dirtyblonde "#f4cf86")
        (taffy "#ff2c4b")
        (saltwatertaffy "#8cffba")
-       (tardis "#0a9dff")
+       (tardis "RoyalBlue")
        (orange "#ffa724")
-       (lime "#aeee00")
+       (lime "#3cb371")
        (dress "#ff9eb8")
        (toffee "#b88853")
        (coffee "#c7915b")
        (darkroast "#88633f")
 
-       (bg blackgravel)
+       (fg plain)
+       (bg darkgravel)
        (hl-line darkgravel))
 
   (custom-theme-set-variables
@@ -91,7 +92,7 @@
    'badwolf
 
    ;; font lock
-   `(default ((t (:inherit nil :foreground ,plain :background ,bg))))
+   `(default ((t (:inherit nil :foreground ,fg :background ,bg))))
    `(font-lock-builtin-face ((t (:foreground ,plain))))
    `(font-lock-comment-face ((t (:foreground ,lightgravel))))
    `(font-lock-comment-delimiter-face ((t (:foreground ,lightgravel))))
@@ -99,15 +100,15 @@
    `(font-lock-doc-face ((t (:foreground ,snow))))
    `(font-lock-function-name-face ((t (:foreground ,orange))))
    `(font-lock-variable-name-face ((t (:foreground ,orange))))
-   `(font-lock-keyword-face ((t (:foreground ,taffy ,@(when (not badwolf-keywords-nobold) `(:weight bold))))))
+   `(font-lock-keyword-face ((t (:foreground "RoyalBlue" ,@(when (not badwolf-keywords-nobold) `(:weight bold))))))
    `(font-lock-preprocessor-face ((t (:foreground ,lime))))
    `(font-lock-string-face ((t (:foreground ,dirtyblonde))))
    `(font-lock-type-face ((t (:foreground ,dress))))
    `(font-lock-warning-face ((t (:foreground ,dress :weight bold))))
    `(shadow ((t (:foreground ,mediumgravel))))
    `(success ((t (:foreground ,lime))))
-   `(error ((t (:foreground ,dress :weight bold))))
-   `(warning ((t (:foreground ,orange))))
+   `(error ((t (:foreground ,taffy :weight bold))))
+   `(warning ((t (:foreground ,dress))))
 
    ;; ui
    `(cursor ((t (:background ,tardis))))
@@ -137,9 +138,9 @@
    `(whitespace-tab ((t (:foreground ,deepgravel))))
    `(whitespace-newline ((t (:foreground ,deepgravel))))
 
-   `(whitespace-indentation ((t (:background ,dirtyblonde :foreground ,taffy))))
-   `(whitespace-space-after-tab ((t (:background ,dirtyblonde :foreground ,taffy))))
-   `(whitespace-space-before-tab ((t (:background ,dirtyblonde :foreground ,taffy))))
+   `(whitespace-indentation ((t (:background ,dirtyblonde :foreground ,dress))))
+   `(whitespace-space-after-tab ((t (:background ,dirtyblonde :foreground ,dress))))
+   `(whitespace-space-before-tab ((t (:background ,dirtyblonde :foreground ,dress))))
 
    ;; ruler-mode
    `(ruler-mode-default ((t :inherit linum :underline t)))
@@ -172,13 +173,13 @@
    ;; rainbow-delimiters
    `(rainbow-delimiters-depth-1-face ((t (:foreground ,mediumgravel))))
    `(rainbow-delimiters-depth-2-face ((t (:foreground ,dalespale))))
-   `(rainbow-delimiters-depth-3-face ((t (:foreground ,dress))))
-   `(rainbow-delimiters-depth-4-face ((t (:foreground ,orange))))
+   `(rainbow-delimiters-depth-3-face ((t (:foreground ,orange))))
+   `(rainbow-delimiters-depth-4-face ((t (:foreground ,dress))))
    `(rainbow-delimiters-depth-5-face ((t (:foreground ,tardis))))
-   `(rainbow-delimiters-depth-6-face ((t (:foreground ,lime))))
-   `(rainbow-delimiters-depth-7-face ((t (:foreground ,toffee))))
-   `(rainbow-delimiters-depth-8-face ((t (:foreground ,saltwatertaffy))))
-   `(rainbow-delimiters-depth-9-face ((t (:foreground ,coffee))))
+   `(rainbow-delimiters-depth-6-face ((t (:foreground "SlateBlue"))))
+   `(rainbow-delimiters-depth-7-face ((t (:foreground ,dirtyblonde))))
+   `(rainbow-delimiters-depth-8-face ((t (:foreground "powder blue"))))
+   `(rainbow-delimiters-depth-9-face ((t (:foreground "rosy brown"))))
    `(rainbow-delimiters-unmatched-face ((t (:foreground ,taffy))))
 
    ;; eshell
@@ -262,7 +263,7 @@
    ;; message
    `(message-cited-text ((t :foreground ,dirtyblonde)))
    `(message-header-cc ((t (:foreground ,plain))))
-   `(message-header-name ((t (:foreground ,taffy))))
+   `(message-header-name ((t (:inherit font-lock-keyword-face))))
    `(message-header-other ((t (:foreground ,plain))))
    `(message-header-subject ((t (:foreground ,orange))))
    `(message-header-to ((t (:foreground ,plain))))
