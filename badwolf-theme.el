@@ -120,7 +120,7 @@
    `(escape-glyph ((t (:foreground ,tardis))))
    `(hl-line ((t (:inherit nil :background ,hl-line))))
    `(minibuffer-prompt ((t (:foreground ,plain))))
-   `(mode-line ((t (:box nil :foreground ,snow :background ,deepgravel))))
+   `(mode-line ((t (:box nil :foreground ,plain :background ,deepgravel))))
    `(mode-line-inactive ((t (:box nil :foreground ,gravel :background ,darkgravel))))
    `(header-line ((t (:inherit mode-line))))
    `(link ((t (:foreground ,lightgravel :underline t))))
@@ -294,11 +294,11 @@
    `(magit-section-heading-selection ((t (:foreground ,dalespale))))
 
    ;; smart-mode-line
-   `(sml/global ((t (:foreground ,dirtyblonde))))
+   `(sml/global ((t (:foreground ,plain))))
    `(sml/vc-edited ((t (:foreground ,dress))))
-   `(sml/vc ((t (:foreground ,dirtyblonde))))
+   `(sml/vc ((t (:foreground ,orange))))
    `(sml/modified ((t (:foreground ,taffy :bold t))))
-   `(sml/position-percentage ((t (:foreground ,dirtyblonde))))
+   `(sml/position-percentage ((t (:foreground ,orange))))
 
    `(clojure-keyword-face ((t (:foreground ,orange))))
    `(clojure-interop-method-face ((t (:foreground ,plain))))
