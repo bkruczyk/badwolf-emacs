@@ -300,6 +300,9 @@
    `(sml/modified ((t (:foreground ,taffy :bold t))))
    `(sml/position-percentage ((t (:foreground ,dirtyblonde))))
 
+   `(clojure-keyword-face ((t (:foreground ,orange))))
+   `(clojure-interop-method-face ((t (:foreground ,plain))))
+
    ;; diff-hl
    `(diff-hl-insert ((t ,(if badwolf-diff-hl-inverse
                              `(:background ,bg :foreground ,saltwatertaffy)
