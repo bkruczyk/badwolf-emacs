@@ -195,27 +195,27 @@
    `(company-scrollbar-bg ((t (:background ,deepgravel))))
    `(company-scrollbar-fg ((t (:background ,mediumgravel))))
    `(company-tooltip ((t (:foreground ,plain :background ,darkgravel))))
-   `(company-tooltip-annotation ((t (:foreground ,coffee :background ,darkgravel))))
-   `(company-tooltip-common ((t (:foreground ,dress :background ,darkgravel))))
-   `(company-tooltip-common-selection ((t (:foreground ,dress :background ,darkgravel))))
+   `(company-tooltip-annotation ((t (:foreground ,dress :background ,darkgravel))))
+   `(company-tooltip-common ((t (:foreground ,toffee :background ,darkgravel))))
+   `(company-tooltip-common-selection ((t (:foreground ,toffee :background ,darkgravel))))
    `(company-tooltip-mouse ((t (:inherit highlight))))
    `(company-tooltip-selection ((t (:background ,darkgravel :foreground ,orange))))
    `(company-template-field ((t (:inherit region))))
 
    ;; ido et al
-   `(ido-first-match ((t (:foreground ,orange))))
-   `(ido-only-match ((t (:foreground ,dress))))
+   `(ido-first-match ((t (:foreground ,toffee))))
+   `(ido-only-match ((t (:foreground ,orange))))
    `(ido-subdir ((t (:foreground ,plain))))
    `(ido-indicator ((t (:foreground ,lime))))
    `(ido-incomplete-regexp ((t (:foreground ,taffy :weight bold))))
 
-   `(ido-vertical-match-face ((t (:weight normal :underline nil :foreground ,dress))))
+   `(ido-vertical-match-face ((t (:weight normal :underline nil :foreground ,orange))))
 
-   `(flx-highlight-face ((t (:foreground ,dress :weight normal :underline nil))))
+   `(flx-highlight-face ((t (:foreground ,toffee :weight normal :underline nil))))
 
   ;; ivy
    `(ivy-confirm-face ((t :foreground ,lime)))
-   `(ivy-current-match ((t :foreground ,orange)))
+   `(ivy-current-match ((t :foreground ,toffee)))
    `(ivy-match-required-face ((t :foreground ,taffy)))
    `(ivy-minibuffer-match-face-1 ((t :inherit nil)))
    `(ivy-minibuffer-match-face-2 ((t :inherit nil)))
