@@ -231,11 +231,15 @@
 
    ;; org
    `(outline-1 ((t (:foreground ,orange :height 1.2))))
+   `(outline-2 ((t (:foreground ,toffee))))
+   `(outline-3 ((t (:foreground ,brightgravel))))
+   `(outline-4 ((t (:foreground ,dirtyblonde))))
+   `(outline-5 ((t (:foreground ,dress))))
 
-   `(org-done ((t (:foreground ,saltwatertaffy :weight bold))))
+   `(org-done ((t (:foreground ,dress :weight bold))))
    `(org-todo ((t (:foreground ,dalespale :weight bold))))
-   `(org-date ((t (:foreground ,dress :underline t))))
-   `(org-special-keyword ((t (:foreground ,dress))))
+   `(org-date ((t (:foreground ,tardis :underline t))))
+   `(org-special-keyword ((t (:foreground ,taffy :weight bold))))
    `(org-document-info ((t (:foreground ,brightgravel))))
    `(org-document-title ((t (:foreground ,plain :family "sans" :height 1.8 :weight bold))))
 
