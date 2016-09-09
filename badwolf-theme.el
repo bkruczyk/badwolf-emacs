@@ -231,9 +231,9 @@
 
    ;; org
    `(outline-1 ((t (:foreground ,orange :height 1.2))))
-   `(outline-2 ((t (:foreground ,toffee))))
+   `(outline-2 ((t (:foreground ,dirtyblonde))))
    `(outline-3 ((t (:foreground ,brightgravel))))
-   `(outline-4 ((t (:foreground ,dirtyblonde))))
+   `(outline-4 ((t (:foreground ,toffee))))
    `(outline-5 ((t (:foreground ,dress))))
 
    `(org-done ((t (:foreground ,dress :weight bold))))
@@ -309,8 +309,8 @@
 
    ;; diff-hl
    `(diff-hl-insert ((t ,(if badwolf-diff-hl-inverse
-                             `(:background ,bg :foreground ,saltwatertaffy)
-                           `(:background ,saltwatertaffy :foreground ,bg)))))
+                             `(:background ,bg :foreground ,lime)
+                           `(:background ,lime :foreground ,bg)))))
    `(diff-hl-delete ((t ,(if badwolf-diff-hl-inverse
                              `(:background ,bg :foreground ,dress)
                            `(:background ,dress :foreground ,bg)))))
