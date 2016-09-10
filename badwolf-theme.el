@@ -190,32 +190,32 @@
    ;; company
    `(company-echo-common ((t (:foreground ,plain))))
    `(company-preview ((t (:background ,darkgravel :foreground ,plain))))
-   `(company-preview-common ((t (:foreground ,orange))))
+   `(company-preview-common ((t (:foreground ,dirtyblonde))))
    `(company-preview-search ((t (:foreground ,tardis))))
    `(company-scrollbar-bg ((t (:background ,deepgravel))))
    `(company-scrollbar-fg ((t (:background ,mediumgravel))))
    `(company-tooltip ((t (:foreground ,plain :background ,darkgravel))))
    `(company-tooltip-annotation ((t (:foreground ,dress :background ,darkgravel))))
-   `(company-tooltip-common ((t (:foreground ,toffee :background ,darkgravel))))
-   `(company-tooltip-common-selection ((t (:foreground ,toffee :background ,darkgravel))))
+   `(company-tooltip-common ((t (:foreground ,dirtyblonde :background ,darkgravel))))
+   `(company-tooltip-common-selection ((t (:foreground ,orange :background ,darkgravel))))
    `(company-tooltip-mouse ((t (:inherit highlight))))
    `(company-tooltip-selection ((t (:background ,darkgravel :foreground ,orange))))
    `(company-template-field ((t (:inherit region))))
 
    ;; ido et al
-   `(ido-first-match ((t (:foreground ,toffee))))
+   `(ido-first-match ((t (:foreground ,dirtyblonde))))
    `(ido-only-match ((t (:foreground ,orange))))
    `(ido-subdir ((t (:foreground ,plain))))
    `(ido-indicator ((t (:foreground ,lime))))
    `(ido-incomplete-regexp ((t (:foreground ,taffy :weight bold))))
 
-   `(ido-vertical-match-face ((t (:weight normal :underline nil :foreground ,orange))))
+   `(ido-vertical-match-face ((t (:weight normal :underline nil :foreground ,dirtyblonde))))
 
-   `(flx-highlight-face ((t (:foreground ,toffee :weight normal :underline nil))))
+   `(flx-highlight-face ((t (:foreground ,dirtyblonde :weight normal :underline nil))))
 
   ;; ivy
    `(ivy-confirm-face ((t :foreground ,lime)))
-   `(ivy-current-match ((t :foreground ,toffee)))
+   `(ivy-current-match ((t :foreground ,dirtyblonde :bold t)))
    `(ivy-match-required-face ((t :foreground ,taffy)))
    `(ivy-minibuffer-match-face-1 ((t :inherit nil)))
    `(ivy-minibuffer-match-face-2 ((t :inherit nil)))
