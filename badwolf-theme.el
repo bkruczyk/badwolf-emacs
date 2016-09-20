@@ -96,7 +96,7 @@
    `(font-lock-comment-face ((t (:foreground ,lightgravel))))
    `(font-lock-comment-delimiter-face ((t (:foreground ,lightgravel))))
    `(font-lock-constant-face ((t (:foreground ,toffee))))
-   `(font-lock-doc-face ((t (:foreground ,snow))))
+   `(font-lock-doc-face ((t (:foreground ,dirtyblonde))))
    `(font-lock-function-name-face ((t (:foreground ,orange))))
    `(font-lock-variable-name-face ((t (:foreground ,orange))))
    `(font-lock-keyword-face ((t (:foreground ,taffy ,@(when (not badwolf-keywords-nobold) `(:weight bold))))))
