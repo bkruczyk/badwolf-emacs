@@ -304,6 +304,7 @@
    `(sml/modified ((t (:foreground ,taffy :bold t))))
    `(sml/position-percentage ((t (:foreground ,orange))))
 
+   ;; clojure
    `(clojure-keyword-face ((t (:foreground ,orange))))
    `(clojure-interop-method-face ((t (:foreground ,plain))))
 
