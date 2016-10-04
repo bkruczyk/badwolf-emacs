@@ -155,8 +155,8 @@
 
    ;; search
    `(isearch ((t (:foreground ,coal :background ,dress :bold t))))
-   `(isearch-fail ((t (:foreground ,taffy :background ,coal :bold t))))
-   `(lazy-highlight ((t (:foreground ,coal :background ,dalespale :bold t))))
+   `(isearch-fail ((t (:foreground ,taffy :background ,bg))))
+   `(lazy-highlight ((t (:foreground ,coal :background ,dalespale))))
 
    ;; show-paren-mode
    `(show-paren-match ((t (:foreground ,dalespale :background ,bg :bold t))))
@@ -167,7 +167,7 @@
    `(anzu-match-2 ((t (:background ,dalespale :foreground ,coal))))
    `(anzu-match-3 ((t (:background ,orange :foreground ,coal))))
    `(anzu-mode-line ((t (:foreground ,dress))))
-   `(anzu-replace-to ((t (:background ,tardis :foreground ,coal :bold t))))
+   `(anzu-replace-to ((t (:background ,tardis :foreground ,coal))))
 
    ;; rainbow-delimiters
    `(rainbow-delimiters-depth-1-face ((t (:foreground ,mediumgravel))))
